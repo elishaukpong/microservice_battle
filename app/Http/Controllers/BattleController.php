@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Algorithm\Dice;
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 
 class BattleController extends Controller
